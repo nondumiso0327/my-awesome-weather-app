@@ -2,6 +2,12 @@ body{
     background-color: #D9D9D9;
     font-family: "Roboto", sans-serif;
 }
+a{
+    color:#4ED7F1 ;
+}
+main {
+    padding: 30px 0;
+}
 .awesome-app{
     background-color: white;
     max-width: 600px;
@@ -9,4 +15,31 @@ body{
     box-shadow:0 30px 50px rgba(65, 50, 100, 0.08);
     border-radius: 14px;
     padding: 30px;
+}
+.city-name{
+    background-color:#D9D9D9 ;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    font-size: 15px;
+    padding: 15px 20px ;
+}
+.submit-button{
+    background: #393E46;
+    border-radius:5px ;
+    border: none;
+    font-size: 15px;
+    padding: 15px 30px ;
+    color: white;
+}
+.weather-app-info{
+display: flex;
+justify-content: space-between;
+
+}
+footer{
+    font-size: 14px;
+    text-align: center;
+    color:#393E46;
+
 }
