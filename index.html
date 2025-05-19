@@ -6,30 +6,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="src/styles.css">
-    <title>My awesome weather app</title>
+ <link rel="stylesheet" href="src/styles.css">
+ <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+<title>My awesome weather app</title>
 </head>
 <body>
     <div class="awesome-app">
-    <header>
-        <form class="search-form">
-            <input type="search" placeholder="Enter a city" required class="city-name"/>
+    <header >
+        <form class="search-form" id="search-form">
+            <input type="search" placeholder="Enter a city" required class="city-name" id="search-form-input"/>
             <input type="submit" value="search" class="submit-button"/>
         </form>
     </header>
     <main>
     <div class="weather-app-info">
     <div>
-     <h1 class="weather-app-city">Durban</h1>
+     <h1 class="weather-app-city" id="city">Durban</h1>
      <p class="weather-app-details">
 
       Tuesday 14:49, scattered clouds
       <br />
-     Humidity: 66%, Wind: 3.13km/h
+     Humidity:<strong>66%</strong>, Wind:<strong>3.13km/h</strong> 
     </div>
     </p>
-     <div class="weather-temperature">🌤️ 12°C</div>
+     <div class="weather-app-temperture" >
+     <div class="weather-app-emoji">🌤️</div>
+     <div class="weather-app-value"> 12</div>
+     <div class="weather-app-unit">°C</div>
     </div>
     </main>
 
@@ -37,5 +40,6 @@
     <a href="https://github.com/nondumiso0327/my-awesome-weather-app" target="_blank"> Github</a> and 
     website hosted on <a href="https://pamella-weather-app.netlify.app/" target="_blank">Netlify</a></footer>
     </div>
+    <script src="src/index.js"></script>
 </body>
 </html>

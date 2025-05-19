@@ -1,45 +1,78 @@
-body{
-    background-color: #D9D9D9;
-    font-family: "Roboto", sans-serif;
+body {
+  background-color: #d9d9d9;
+  font-family: "Roboto", sans-serif;
 }
-a{
-    color:#4ED7F1 ;
+a {
+  color: #4ed7f1;
 }
 main {
-    padding: 30px 0;
+  padding: 30px 0;
 }
-.awesome-app{
-    background-color: white;
-    max-width: 600px;
-    margin: 30px auto;
-    box-shadow:0 30px 50px rgba(65, 50, 100, 0.08);
-    border-radius: 14px;
-    padding: 30px;
+header {
+  border-bottom: 1px solid #f9f7fe;
+  padding: 0 0 30px 0;
 }
-.city-name{
-    background-color:#D9D9D9 ;
-    border: none;
-    border-radius: 5px;
-    width: 80%;
-    font-size: 15px;
-    padding: 15px 20px ;
+.awesome-app {
+  background-color: white;
+  max-width: 600px;
+  margin: 30px auto;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 14px;
+  padding: 30px;
 }
-.submit-button{
-    background: #393E46;
-    border-radius:5px ;
-    border: none;
-    font-size: 15px;
-    padding: 15px 30px ;
-    color: white;
+.city-name {
+  background-color: #d9d9d9;
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+  font-size: 15px;
+  padding: 15px 20px;
 }
-.weather-app-info{
-display: flex;
-justify-content: space-between;
+.submit-button {
+  background: #393e46;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  padding: 15px 30px;
+  color: white;
+}
+.weather-app-info {
+  display: flex;
+  justify-content: space-between;
+}
+.weather-app-city {
+  margin: 0;
+  font-size: 35px;
+  line-height: 48px;
+}
+.weather-app-details {
+font-size: 16px;
+line-height: 25px;
+color:#4E6688 ;
+font-weight: 500px;
+}
+.weather-app-details strong{
+  color:#332D56 ;
+}
+.weather-app-temperture{
+  display: flex;
+}
+.weather-app-value{
+  font-size: 80px;
+  font-weight: bold;
 
 }
-footer{
-    font-size: 14px;
-    text-align: center;
-    color:#393E46;
-
+.weather-app-emoji{
+  font-size: 42px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.weather-app-unit{
+  margin-top: 18px;
+font-size: 20px;
+  }
+footer {
+  font-size: 14px;
+  text-align: center;
+  color: #393e46;
 }
