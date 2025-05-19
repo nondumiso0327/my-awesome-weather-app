@@ -40,6 +40,7 @@ header {
   display: flex;
   justify-content: space-between;
 }
+
 .weather-app-city {
   margin: 0;
   font-size: 35px;
@@ -64,13 +65,19 @@ font-weight: 500px;
 }
 .weather-app-emoji{
   font-size: 42px;
-  margin-top: 20px;
+  margin-bottom: 20px;
   margin-left: 10px;
 }
 .weather-app-unit{
-  margin-top: 18px;
+ margin-bottom: 40px;
 font-size: 20px;
   }
+.weather-app-info {
+  margin: 0;
+  font-size: 25px;
+  line-height: 40px;
+}
+  
 footer {
   font-size: 14px;
   text-align: center;
