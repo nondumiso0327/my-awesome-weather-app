@@ -47,37 +47,36 @@ header {
   line-height: 48px;
 }
 .weather-app-details {
-font-size: 16px;
-line-height: 25px;
-color:#4E6688 ;
-font-weight: 500px;
+  font-size: 16px;
+  line-height: 25px;
+  color: #4e6688;
+  font-weight: 500px;
 }
-.weather-app-details strong{
-  color:#332D56 ;
+.weather-app-details strong {
+  color: #332d56;
 }
-.weather-app-temperture{
+.weather-app-temperture {
   display: flex;
 }
-.weather-app-value{
+.weather-app-value {
   font-size: 80px;
   font-weight: bold;
-
 }
-.weather-app-emoji{
+.weather-app-emoji {
   font-size: 42px;
   margin-bottom: 20px;
   margin-left: 10px;
 }
-.weather-app-unit{
- margin-bottom: 40px;
-font-size: 20px;
-  }
+.weather-app-unit {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
 .weather-app-info {
   margin: 0;
   font-size: 25px;
   line-height: 40px;
 }
-  
+
 footer {
   font-size: 14px;
   text-align: center;
