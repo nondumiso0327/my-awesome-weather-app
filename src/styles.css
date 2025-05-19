@@ -40,7 +40,14 @@ header {
   display: flex;
   justify-content: space-between;
 }
-
+#humidity {
+  color: #7f55b1;
+  font-weight: bold;
+}
+#speed {
+  color: #7f55b1;
+  font-weight: bold;
+}
 .weather-app-city {
   margin: 0;
   font-size: 40px;
@@ -57,19 +64,19 @@ header {
 }
 .weather-app-temperture {
   display: flex;
-
 }
 .weather-app-value {
+  margin-top: 20px;
   font-size: 80px;
   font-weight: bold;
 }
 .weather-app-emoji {
   font-size: 42px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   margin-left: 10px;
 }
 .weather-app-unit {
-  margin-bottom:80px;
+  margin-bottom: 80px;
   font-size: 40px;
 }
 .weather-app-info {
